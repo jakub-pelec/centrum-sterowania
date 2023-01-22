@@ -17,7 +17,7 @@ export const RegisterPage: React.FC<IProps> = () => {
 	});
 
 	const onSubmit = (data: any) => {
-		console.assert(false, notImplemented('registerSubmit'));
+		console.assert(false, notImplemented(onSubmit.name));
 		navigate(ROUTES.DASHBOARD);
 	};
 
